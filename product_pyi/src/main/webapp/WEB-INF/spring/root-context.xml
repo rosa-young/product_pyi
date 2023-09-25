@@ -27,7 +27,8 @@
 		<property name="dataSource" ref="dataSource"></property>
 	</bean>		
 	
-	<mybatis-spring:scan base-package="edu.mit.dao" />
+	<mybatis-spring:scan base-package="edu.mit.mapper" />
+	<context:component-scan base-package="edu.mit.service" />
 
 	
 		
